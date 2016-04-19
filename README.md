@@ -24,3 +24,6 @@ npm install express
 Open the terminal, go to the project directory and run this project using the following command:
 
 node myweb.js
+
+
+The default port number is 3000
