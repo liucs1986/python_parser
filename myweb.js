@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
     console.log( req.body.code);
     var options = {
       mode: 'json',
-      pythonPath:  '/usr/local/bin/python3',
+      pythonPath:  '/usr/local/bin/python3.4',
       pythonOptions: ['-u'], // -u is unbuffered output
       scriptPath: __dirname
     };
@@ -49,6 +49,6 @@ app.get('/', function (req, res) {
     });
   });
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
+app.listen(9090, function () {
+  console.log('Example app listening on port 9090!');
 });
